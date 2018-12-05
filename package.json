@@ -1,0 +1,35 @@
+{
+  "name": "iFleet",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.13.1",
+    "jest-expo": "26.0.0",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^26.0.0",
+    "moment": "^2.22.1",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.0",
+    "react-native-device-info": "^0.21.5",
+    "react-native-dropdownalert": "^3.4.0",
+    "react-native-keyboard-aware-scroll-view": "^0.5.0",
+    "react-native-shadow": "^1.2.2",
+    "react-navigation": "^1.5.11",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  }
+}
